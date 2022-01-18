@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/ship.jpg);
+    color: blue;
+    font-size: 25px;
+    background-size: 1365px 700px;
+    background-repeat: no-repeat;
+    
+}
+
+.left {
+    /* border: 2PX solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 42px;
+
+}
+
+.left img {
+    width: 70px;
+
+}
+.left image centre{ 
+    display: block;
+    width: 100%;
+
+}
+left div{
+    text-align: center;
+    color: blue;
+}
+
+
+
+.mid {
+    /* border: 2PX solid blue; */
+    display: block;
+    width: 40%;
+    margin: 8px 350px;
+
+
+}
+
+
+.right {
+    /* border: 2PX solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+
+}
+
+.btn {
+    border: 2px solid blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px 5px;
+    margin: 4px 4px;
+    border-radius: 13px;
+    color: blue;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: red;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 2pxpx;
+    padding: 2px 7px;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 2px 3px;
+    margin: auto;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: red;
+}
